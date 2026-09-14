@@ -1,0 +1,9 @@
+/nologo
+/target:winexe
+/platform:anycpu
+/optimize+
+/win32icon:assets\favicon.ico
+/out:dist\StartupPresetManager_zh-CN.exe
+/resource:src\StartupPresetManager_zh-CN.ps1,StartupPresetManager.ps1
+/reference:System.Windows.Forms.dll
+src\StartupPresetManagerLauncher.cs
